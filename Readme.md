@@ -523,6 +523,12 @@ python -m advanced_rag.ingestion.cli --seed-sql
 python -m advanced_rag.api.main
 ```
 
+> If failed : The reason incorrectly set python path
+```
+export PYTHONPATH=$PYTHONPATH:$(pwd)/src       
+python3 -m src.advanced_rag.api.main
+```
+
 No API key? Offline mode is supported — answers become cited, quoted passages:
 
 ```powershell
