@@ -60,12 +60,6 @@ export API_PORT=8001
 python3 -m advanced_rag.api.main
 ```
 
-Or use uvicorn directly:
-```bash
-source venv/bin/activate
-uvicorn advanced_rag.api.main:app --host 127.0.0.1 --port 8001
-```
-
 ### 5. Verify Everything Works
 
 In another terminal:
